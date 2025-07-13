@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Raleway", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #333333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#fryer-form-container {
+  margin: auto;
+  margin-top: 60px;
+  height: 45em;
+  width: 40em;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  line-height: 40px;
+  background-color: #479DAFE6;
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+  border: 2px solid #D1D0CE;
+  background-color: #D1D0CE;
+  color: #333333;
+  padding: 12px 24px;
+  font-size: 14px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+#fryer-form-container input {
+  width: 90%;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+#fryer-form-container label {
+  margin-left: 30px;
+  color: #D1D0CE;
+  font-size: 18px;
+}
+
+#fryer-form-container button {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.info:hover {
+  border-color: #479DAFE6;
+  color: #479DAFE6;
+  background-color: black;
+  transition: all .4s ease;
+}
+
+@media only screen and (max-width: 600px) {
+  #fryer-form-container {
+    margin: 60px auto;
   }
 }
