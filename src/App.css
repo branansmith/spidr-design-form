@@ -49,7 +49,7 @@ body {
 .info:hover {
   border-color: #479DAFE6;
   color: #479DAFE6;
-  background-color: black;
+  background-color: #333333;
   transition: all .4s ease;
 }
 
